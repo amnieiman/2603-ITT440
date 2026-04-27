@@ -1,4 +1,6 @@
 # 2603-ITT440
+# NUR AMNIE IMAN BINTI ZAHA (2024272968)
+# M3CS2554B
 # 📊 Parallel Text Processing Performance Analyzer
 
 ---
@@ -46,11 +48,13 @@ This project aims to analyze and compare the performance of three approaches: se
 
 ### 2. Install required library
 Run in terminal:
+```bash
 python -m pip install matplotlib
+```
 
 ### 3. (Optional) Install Visual Studio Code
-•	Download and install Visual Studio Code
-•	Install Python extension
+- Download and install Visual Studio Code
+- Install Python extension
 
 ---
 
@@ -61,15 +65,20 @@ Open the project folder in Visual Studio Code
 
 
 ### Step 2: Open Terminal
-Press: Ctrl+
-
+Press:
+```bash
+Ctrl+
+```
 
 ### Step 3: Install Required Library (First Time Only)
+```bash
 pip install matplotlib
-
+```
 
 ### Step 4: Run the Program
+```bash
 python main.py
+```
 
 ---
 
@@ -77,32 +86,39 @@ python main.py
 
 ### 1. Data Generation
 The program generates a large dataset:
-Generating HEAVY DATA (4,000,000 lines)... Please wait
-
+```bash
+Generating HEAVY DATA (4,000,000 lines)... Please wait.
+```
 
 ### 2. Execution Methods
 The system runs three processing methods:
+```bash
 Running Multiprocessing...
 Running Threading...
 Running Sequential...
+```
 
 
 ### 3. Performance Results
 
 The terminal will display a comparison table:
 
+```bash
 - Method               | Time (Seconds)
 --------------------------------------
 - Multiprocessing      | fastest
 - Threading            | medium
 - Sequential           | slowest
+```
 
 
 ### 4. Graph Output
 
 - A performance graph will appear in a pop-up window  
 - The graph will also be saved automatically as:
+```bash
   performance_graph.png
+```
 
   ---
 
@@ -118,19 +134,23 @@ The system automatically generates a large dataset consisting of 4,000,000 lines
 ## 📤 SAMPLE OUTPUT (INSERT REAL OUTPUT)
 
 ### Terminal Output Example:
-
+```bash
 Generating HEAVY DATA (4,000,000 lines)... Please wait.
 Running Multiprocessing...
 Running Threading...
 Running Sequential...
+```
 
+```bash
 Method | Time (Seconds)
 Multiprocessing | 1.23s (Fastest)
 Threading | 2.45s (Middle)
 Sequential | 4.89s (Slowest)
-
+```
+```bash
 SUCCESS: Graph saved as 'performance_graph.png'
 Displaying Graph... (Close window to finish)
+```
 
 ---
 
