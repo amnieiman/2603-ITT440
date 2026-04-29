@@ -77,7 +77,7 @@ pip install matplotlib
 
 ### Step 4: Run the Program
 ```bash
-python main.py
+python ptext_analyzer.py
 ```
 
 ---
