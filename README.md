@@ -171,11 +171,13 @@ It includes:
 
 ## 📌 CONCLUSION
 
-This project successfully demonstrates the performance differences between sequential, threading, and multiprocessing approaches when handling large-scale data.
+This project successfully demonstrates the performance differences between sequential, threading, and multiprocessing approaches when handling large-scale data consisting of millions of text lines.
 
-Based on the results, multiprocessing is the fastest method because it utilizes multiple CPU cores for true parallel execution. Threading provides moderate performance but is limited by Python’s Global Interpreter Lock (GIL). Sequential processing is the slowest as it executes tasks one at a time.
+Based on the results obtained, multiprocessing achieved the best performance with an execution time of 4.5262 seconds, making it the fastest method. Threading showed moderate performance at 10.4273 seconds, while sequential processing was the slowest at 11.2694 seconds.
 
-Overall, the project proves that parallel programming significantly improves efficiency for CPU-intensive tasks involving large datasets.
+The significant improvement in multiprocessing performance is due to its ability to utilize multiple CPU cores for true parallel execution. In contrast, threading is limited by Python’s Global Interpreter Lock (GIL), which restricts full parallelism for CPU-intensive tasks. Sequential processing, which executes tasks one by one, results in the longest execution time.
+
+Overall, the results clearly prove that parallel programming, particularly multiprocessing, greatly enhances efficiency and performance when processing large-scale, CPU-intensive data.
 
 ---
 
