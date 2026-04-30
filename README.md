@@ -11,7 +11,7 @@ Parallel Text Processing Performance Analyzer
 ---
 
 ## 📖 INTRODUCTION
-This project is developed to compare the performance of different programming approaches in processing large-scale data using Python. It focuses on sequential processing, multithreading and multiprocessing techniques.
+This project is developed to compare the performance of different programming approaches in processing large-scale data using Python. It focuses on sequential processing, threading and multiprocessing techniques.
 
 A large dataset of 4,000,000 text lines is generated and processed to measure execution time for each method. The results are then displayed in a table and visualized using a graph.
 
@@ -22,7 +22,7 @@ The main goal of this project is to show how parallel programming can improve pe
 ## ❗ PROBLEM STATEMENT
 Modern systems process large volumes of data and choosing the right execution method is critical for performance. Sequential processing can be slow when handling large datasets, while concurrent and parallel techniques may improve execution time.
 
-This project aims to analyze and compare the performance of three approaches: sequential processing, multithreading and multiprocessing in Python. The system processes a large dataset (millions of text lines) and measures execution time to determine the most efficient method.
+This project aims to analyze and compare the performance of three approaches: sequential processing, threading and multiprocessing in Python. The system processes a large dataset (millions of text lines) and measures execution time to determine the most efficient method.
 
 
 **The problem addressed is:**  
@@ -77,7 +77,7 @@ pip install matplotlib
 
 ### Step 4: Run the Program
 ```bash
-python ptext_analyzer.py
+ptext_analyzer.py
 ```
 
 ---
@@ -122,16 +122,18 @@ The terminal will display a comparison table:
 
   ---
 
-  ## 📥 SAMPLE INPUT (INSERT REAL INPUT LATER)
+  ## 📥 SAMPLE INPUT 
 
 The system automatically generates a large dataset consisting of 4,000,000 lines of repeated text:
 (insert input here)
 - Wujudmu di sini di tanah anak merdeka. Bagai obor ilmu memayungi putera puterinya.
 (repeated 4,000,000 times)
+<img width="1280" height="761" alt="image" src="https://github.com/user-attachments/assets/0b3bb1f3-7873-47c1-a518-55bbdd12865c" />
+
 
 ---
 
-## 📤 SAMPLE OUTPUT (INSERT REAL OUTPUT)
+## 📤 SAMPLE OUTPUT
 
 ### Terminal Output Example:
 ```bash
@@ -151,6 +153,10 @@ Sequential | 4.89s (Slowest)
 SUCCESS: Graph saved as 'performance_graph.png'
 Displaying Graph... (Close window to finish)
 ```
+
+### Real Output
+<img width="963" height="338" alt="image" src="https://github.com/user-attachments/assets/ed9752f4-c5ef-411e-aead-f661c2b69585" />
+
 
 ---
 
